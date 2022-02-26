@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Christiano0407/singlePage_Aplication_course/issues"
   },
-  "homepage": "https://github.com/Christiano0407/singlePage_Aplication_course#readme"
+  "homepage": "https://github.com/Christiano0407/singlePage_Aplication_course#readme",
+  "devDependencies": {
+    "webpack-cli": "^4.9.2"
+  }
 }
