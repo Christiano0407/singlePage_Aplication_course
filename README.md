@@ -4,7 +4,10 @@ Course of Single Page Aplication Course with Platzi.
 
 # MIT License
 
-> MIT License -[Choose License](https://choosealicense.com/) -[License Software Wikipeadia](https://es.wikipedia.org/wiki/Licencia_de_software)
+> MIT License
+
+- [Choose License](https://choosealicense.com/)
+- [License Software Wikipeadia](https://es.wikipedia.org/wiki/Licencia_de_software)
 
 MIT License
 
