@@ -1,4 +1,4 @@
-const Character = () => {
+export const Character = () => {
   const view = `
     <div class="Characters-inner">
       <article class="Characters-card">
@@ -18,4 +18,4 @@ const Character = () => {
   return view;
 };
 
-export default Character;
+/* export default Character; */
