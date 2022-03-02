@@ -4,6 +4,8 @@ import { Header } from "../templates/header.js";
 import { Home } from "../pages/home.js";
 import { Character } from "../pages/character.js";
 import { Error404 } from "../pages/Error404.js";
+import { getHash } from "../utils/getHash";
+import { resolveRouters } from "../utils/resolveRouters";
 
 // Routes =Rutas=>
 const routes = {

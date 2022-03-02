@@ -4,7 +4,6 @@
   "description": "singlePage Javascript",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "develop": "webpack --mode development",
     "build": "webpack --mode production",
     "start": "live-server"
