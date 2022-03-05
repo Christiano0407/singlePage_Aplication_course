@@ -2,9 +2,9 @@
 const API = "https://rickandmortyapi.com/api/character/";
 
 export const getData = async (id) => {
-  const apiUrl = id ? `${API}${id}` : API; // => ID del personaje que llamamos.
+  const apiURL = id ? `${API}${id}` : API; // => ID del personaje que llamamos.
   try {
-    const response = await fetch(apiUrl);
+    const response = await fetch(apiURL);
     const data = await response.json();
     return data;
   } catch (error) {

@@ -1,9 +1,9 @@
 // Import Loaders With Webpack ==>
 import "../styles/main.css";
-import { Header } from "../templates/header.js";
-import { Home } from "../pages/home.js";
-import { Character } from "../pages/character.js";
-import { Error404 } from "../pages/Error404.js";
+import { Header } from "../templates/header";
+import { Home } from "../pages/home";
+import { Character } from "../pages/character";
+import { Error404 } from "../pages/Error404";
 import { getHash } from "../utils/getHash";
 import { resolveRouters } from "../utils/resolveRouters";
 
