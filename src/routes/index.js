@@ -11,7 +11,7 @@ import { resolveRouters } from "../utils/resolveRouters";
 const routes = {
   "/": Home,
   "/:id": Character,
-  "/contact ": `contact`,
+  "/contact ": `Contact`,
 };
 
 // Manejador ==Agegar con js a html==>

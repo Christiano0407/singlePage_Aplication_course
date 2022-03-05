@@ -67,14 +67,14 @@ img {
   display: grid;
 }
 
-.Characters-inner {
+.characters-inner {
   grid-template-columns: 1fr 2fr;
   grid-gap: 1.5rem;
   grid-row-gap: 1.5em;
   display: grid;
 }
 
-.Characters-card {
+.characters-card {
   text-decoration: none;
   box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06),
     1px 3px 8px rgba(39, 44, 49, 0.03);
@@ -85,27 +85,28 @@ img {
   animation-name: fade;
 }
 
-.Characters-card img {
+.characters-card img {
   width: 100%;
   height: auto;
   border-radius: 5px 5px 0 0;
   border-radius: 10px;
 }
 
-.Characters-card h2 {
+.characters-card h2 {
   font-size: 18px;
   font-weight: 400;
   text-align: center;
+  color: #000;
 }
 
-.Characters-card h3 {
+.characters-card h3 {
   font-size: 18px;
   font-weight: 400;
   text-align: left;
   margin: 20px;
 }
 
-.Characters-item {
+.characters-item {
   text-decoration: none;
   box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06),
     1px 3px 8px rgba(39, 44, 49, 0.03);
