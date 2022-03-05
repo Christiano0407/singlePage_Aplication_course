@@ -23,15 +23,15 @@ module.exports = {
       },
       {
         test: /\.css$/i,
-        use: [MiniCssExtractPlugin.loader, `css-loader`],
+        use: [MiniCssExtractPlugin.loader, "css-loader"],
       },
     ],
   },
   plugins: [
     new HtmlWebpackPlugin({
       inject: true,
-      template: `./public/index.html`,
-      filename: `./index.html`,
+      template: "./public/index.html",
+      filename: "./index.html",
     }),
     new MiniCssExtractPlugin(),
     new CopyPlugin({
