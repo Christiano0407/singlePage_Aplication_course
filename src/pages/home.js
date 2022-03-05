@@ -10,7 +10,7 @@ export const Home = async () => {
          (character) => ` 
       <article class="character-item">
            <a href="#/${character.id} /">
-           <img class="imgAll" src="${character.image}" alt="${character.name}">
+           <img id="imgAPI" class="imgAll" src="${character.image}" alt="${character.name}">
            <h2>${character.name}</h2>
            </a>
      </article>
